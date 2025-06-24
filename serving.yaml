@@ -4,7 +4,7 @@ metadata:
   name: llm-keyword-django
 spec:
   containers:
-    - image: arindamarin/llm-django-keywords:latest
+    - image: docker.io/arindamarin/llm-django-keywords:latest
       name: llmkeyword
       ports:
         - containerPort: 8000

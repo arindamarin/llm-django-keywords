@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from transformers import pipeline
 
-model = pipeline("text2text-generation", model="google/flan-t5-base")
+model = pipeline("text2text-generation", model="gpt-4.1-nano")
 
 @api_view(["POST"])
 def extract_keywords(request):
